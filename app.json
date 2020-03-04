@@ -1,14 +1,10 @@
 {
   "expo": {
-    "name": "client",
-    "slug": "client",
+    "name": "RN-MQTT",
+    "slug": "osamaq",
     "privacy": "public",
     "sdkVersion": "36.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,11 +16,15 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.osamaq.rnmqtt",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.osamaq.rnmqtt",
+      "versionCode": 1
     }
   }
 }
