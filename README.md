@@ -1,4 +1,4 @@
-# react-native-mqtt-sample
+# react-native-mqtt-example
 
 Using a CloudMQTT instance and react_native_mqtt library
 
